@@ -3,7 +3,7 @@ package io.github.lbilger.aoc2025
 import java.nio.file.Files
 import java.nio.file.Paths
 
-fun part1() {
+fun day1part1() {
     println("Day 1, Part 1")
     val input = Files.lines(Paths.get("inputs/Day1.txt")).toList()
     println("Input: ${input.size} lines")
@@ -18,7 +18,7 @@ fun part1() {
     println(zeros)
 }
 
-fun part2() {
+fun day1part2() {
     println("Day 1, Part 2")
     val input = Files.lines(Paths.get("inputs/Day1.txt")).toList()
     println("Input: ${input.size} lines")
@@ -38,7 +38,6 @@ fun part2() {
 }
 
 fun main() {
-    println(-1 % 100)
-    part1()
-    part2()
+    day1part1()
+    day1part2()
 }
